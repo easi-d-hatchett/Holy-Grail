@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header {
+    border-bottom: 0;
+    flex: 1;
+}
+.middle {
+    display:flex;
+    flex-direction: row;
+    
+   
+}
+
+
+footer{
+border-top: 0;
+flex: 1;
+}
+
+nav,
+aside {
+    background: rgb(205, 156, 205);
+    border: 0.5rem solid black;
+}
+nav {
+    flex: 1;
+}
+
+main {
+    background: yellowgreen;
+    border: 0.5rem solid black;
+
+    border-left: 0;
+    border-right: 0;
+
+    flex: 3;
+}
+aside {
+    flex: 1;
+}
+footer,
+header{
+    background: beige;
+}
